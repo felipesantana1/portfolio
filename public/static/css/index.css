@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /* background: linear-gradient(to bottom right, rgb(40, 0, 0), rgb(135, 135, 135)); */
+    background-image: url("../images/2341441.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20rem;
+    /* background-color:rgba(89, 89, 89, 0.8); */
+}
+.header, img {
+    margin-bottom: 2rem;
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#faceCard {
+    margin: 20px;
+}
+#myName {
+    font-variant: small-caps;
+}
+#navText {
+    /* font-family: 'Cinzel'; */
+    font-size: 20px;
+}
+.about {
+    height: fit-content;
+    background-color:rgba(49, 49, 49, 0.8);
+    /* background-color: black; */
+    font-family: 'Noto Serif';
+    padding: 5rem;
+    padding-bottom: 30rem;
+    margin-bottom: 10rem;
+}
+.cardItems {
+    /* margin-left: 100px; */
+    display: inline-block;
+}
+.cardItems, img {
+    max-width: 100%;
+    height: auto;
+    /* margin-left: 2rem;
+    margin-top: 2rem; */
+}
+#myCard {
+    float: right;
+}
+.technologies{
+    /* max-height: 50px; */
+    color:black;
+    padding-bottom: 10rem;
+}
+.techLogos {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-left: 2rem;
+}
+.resume {
+    background-color:rgba(160, 4, 4, 0.919);
+    height: fit-content;
+    padding: 5rem;
+}
+.innerResume{
+    padding-left: 2rem;
+    color:whitesmoke;
+}
+.projects{
+    max-width: 100rem;
+    max-height: 80rem;
+    margin-top: 20rem;
+    padding-bottom: 15rem;
+    margin-bottom: 20rem;
+    background-color:rgba(99, 87, 255, 0.939);
+    background-size:  cover;
+}
+.contact {
+    padding: 5rem;
+    color: black;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}

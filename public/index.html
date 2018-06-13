@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>Felipe Sanatna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.Ccom/css?family=Noto+Serif">
+    <link rel="stylesheet" href="https://fonts.googleapis.Ccom/css?family=Cinzel">
+    <link rel="stylesheet" href="static/css/index.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="./static/js/index.js"></script>
+  </head>
+  <body>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a href="/"><h3 id="myName" class="navbar-brand">Felipe Santana</h3></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="pageScroll1()">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="pageScroll2()">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="pageScroll3()">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="pageScroll4()">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" onclick="pageScroll5()">Contact</a>
+                    </li>
+                </ul>
+                <p id="navText" class="navbar-text">
+                    Welcome to My Personal Profile
+                </p>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>    
+    <div class="header">
+        <img style="height: 400px;" src="static/images/kierkegard.jpg" alt="Card image">
+    </div>
+
+    <div class="about" class="col-12">
+        <h1 style="text-align:center;">About Me!</h1>
+        <div class="col-3" class="cardItems">
+            <img src="static/images/IMG_20141017_095515.jpg" class="rounded float-left" alt="Responsive image">
+        </div>
+        <div class="col-9" id="myCard" class="cardItems" class="card" style="width: fit-content; height: fit-content;">
+            <div class="card-body">
+                <h2 class="card-title">Felipe Santana</h2>
+                <h6 class="card-subtitle mb-2 text-muted">Software / Web Developer</h6>
+                <h5 class="card-text" style="color:whitesmoke;">
+                        The name's Felipe Santana and I am a Full Stack Web Developer with experience building 
+                        web applications in 3 separate stacks: Python, Ruby, and (my personal favorite) JavaScript. 
+                        I am recent graduate from silicone valley based coding boot camp "Coding Dojo". I consider 
+                        myself to be a jack of all trades as I have worked in several industries, from blue collar 
+                        work in construction and land surveying, to customer service in the fast food industry, 
+                        and now finally the exciting world of web development. I am currently employed as a Web Developer
+                        & Sales Associate at a Bay Area based startup called GardKnight Surveillance Systems. I am however,
+                        always interested in hearing about new and exciting opportunities, so feel free to leave a message 
+                        and I will get back to you as soon as possible. Thanks!
+                </h5>
+                    <br>
+                    <br>                
+                <a href="https://www.linkedin.com/in/felipeo-santana/" target="_blank" class="card-link">
+                    <img src="static/images/linkedin_logo.png" style="height: 60px; width: 150px;" alt="linkedin logo">
+                </a>
+                <a href="https://www.github.com/skweepz22" target="_blank" class="card-link">
+                    <img src="static/images/github_logo.png" style="height: 60px; width: 150px;" alt="github logo">
+                </a>
+                <a href="static/files/Resume(New).pdf" download="FelipesResume" class="card-link">
+                    <button type="button" class="btn btn-dark" style="height: 60px; width: 150px;">Download Resume</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    
+    <div class="technologies" class="col-12">
+        <h1>Technologies</h1>
+        <br><br>
+        <img class="techLogos" src="./static/images/HTML5.png" alt="tech logos">
+        <img class="techLogos" src="./static/images/css3.png" alt="tech logos">
+        <img class="techLogos" src="./static/images/js.jpg" alt="tech logos">
+        <img class="techLogos" src="./static/images/nodejs.png" alt="tech logos">
+        <img class="techLogos" src="./static/images/mean.jpg" alt="tech logos">
+        <img class="techLogos" src="./static/images/mongodb-logo.png" alt="tech logos">
+        <img class="techLogos" src="./static/images/Python.png" alt="tech logos">
+        <img class="techLogos" src="./static/images/python-django.png" alt="tech logos">
+        <img class="techLogos" src="./static/images/MySQL.png" alt="tech logos">
+        <img class="techLogos" src="./static/images/postgresql-logo.png" alt="tech logos">
+    </div>
+    <br>
+    <br>
+    <div class="resume">
+        
+        <div class="innerResume">
+            <h1 style="text-decoration: underline; text-align: center;">Recent Employment History</h1><br>
+            <h2 class="">GardKnight Surveillance Systems</h2>
+            <b>Software Developer & Sales Representative</b>
+            <br>
+            <p>May, 2018 - Present</p>
+            <p>
+                <span>- Contributing to the creation of the company website using the LAMP stack and an Angular framework on the front end</span><br>
+                <span>- Assisting with development of company logging applictaion using Nodejs and MySQL</span><br>
+                <span>- Working in outreach and documenting data for potential future clients</span><br>
+                <span>- Developing new strategies for market diversification and potential advertisement opportunities</span><br>
+            </p>
+            <br>
+            <h2 class="">Panda Express</h2>
+            <b>Kitchen Operations Lead</b>
+            <br>
+            <p>May, 2016 - Present</p>
+            <p>
+                <span>- Managed inventory and customer relations to ensure timely operations</span><br>
+                <span>- Assisted in daily functions and administrative tasks to maintain an excellent dining experience </span>
+            </p>
+            <br>
+            <h2 class="">Hallin & Herrera Inc</h2>
+            <b>Laborer Lead</b>
+            <br>
+            <p>July 2015 - March 2016</p>
+            <p>
+                <span>- Lead small groups of laborers to ensure day to day tasks were completed</span><br>
+                <span>- Reported daily progress to Foreman and communicated future tasks to team</span><br>
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="projects">
+        <h1 style="text-decoration: underline">Web Development Projects</h1>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a><img class="d-block w-100" src="./static/images/mongodb-logo.png" alt="First slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Game Cellar</h5>
+                    <p>
+                        <span style="color: solid black">- MEAN stack application where users can create personal profiles and sell games at a price they find fair</span> <br>
+                        <span style="color: solid black">- Built entire project from scratch, utilized Angular, JQuery, and Bootstrap for a designed and responsive  frontend along with a Nodejs backend and MongoDB</span>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a><img class="d-block w-100" src="./static/images/mongodb-logo.png" alt="Second slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Game Cellar</h5>
+                    <p>
+                        <span style="color: solid black">- MEAN stack application where users can create personal profiles and sell games at a price they find fair</span> <br>
+                        <span style="color: solid black">- Built entire project from scratch, utilized Angular, JQuery, and Bootstrap for a designed and responsive  frontend along with a Nodejs backend and MongoDB</span>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a><img class="d-block w-100" src="./static/images/mongodb-logo.png" alt="Third slide"></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Game Cellar</h5>
+                    <p>
+                        <span style="color: solid black">- MEAN stack application where users can create personal profiles and sell games at a price they find fair</span> <br>
+                        <span style="color: solid black">- Built entire project from scratch, utilized Angular, JQuery, and Bootstrap for a designed and responsive  frontend along with a Nodejs backend and MongoDB</span>
+                    </p>
+                </div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+  </body>
+  <br>
+  <br>
+  <div class="contact">
+        <div class="card text-center">
+            <div class="card-header">
+                <h1>Contact Info</h1>
+            </div>
+            <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+            </div>
+        </div>
+  </div>
+</html>
