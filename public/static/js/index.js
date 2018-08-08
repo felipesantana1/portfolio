@@ -1,5 +1,6 @@
 function pageScroll1(){
     window.scrollTo(0, 800);
+    console.log("Working");
 }
 
 function pageScroll2(){
