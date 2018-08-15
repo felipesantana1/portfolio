@@ -27,9 +27,8 @@ app.post("/email", (req, res)=>{
         var mialOptions = {
             from: req.body.email,
             to: process.env.GMAIL_USER,
-            name: req.body.name,
-            subject: "portfolio message",
-            text: req.body.message
+            subject: 'portfolio message',
+            html: '<h1>from: '+req.body.name+'; '+req.body.email+'<br>'+'message: '+req.body.message+'</h1>'
         };
 
         transporter.sendMail(mialOptions, (err, info) => {
