@@ -147,13 +147,18 @@ nav{
     background-attachment: fixed;
     color: white;
 }
+.box5 h1{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
 .projects{
-    margin-top: 2rem;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1rem;
     padding: 2rem;
     margin-bottom: 30rem;
+    background-color: #000;
 }
 .projects p{
     font-family: sans-serif;
