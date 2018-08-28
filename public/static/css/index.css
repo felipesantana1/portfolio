@@ -38,6 +38,7 @@ nav{
     background-image: url('../images/SF_Bay.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     display: table;
 }
 .box1info{
@@ -57,7 +58,7 @@ nav{
     background-image: url('../images/2341441.jpg');
     background-size: cover;
     background-attachment: fixed;
-    
+    background-position: center;
 }
 .container{
     width: 100%;
@@ -66,8 +67,6 @@ nav{
     display: grid;
     grid-template-columns: 30% 70%;
     grid-gap: 1rem;
-    grid-auto-rows: minmax(40rem, auto);
-    grid-auto-columns: minmax(10rem, auto);
     background-color: rgba(0, 0, 0, 0.61);
     color: white;
 }
@@ -88,6 +87,7 @@ nav{
     background-image: url('../images/Linus-Torvalds-Quote-Talk-is-cheap-Show-me-the-code.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 .box3 div{
     padding: 10px;
@@ -98,7 +98,7 @@ nav{
     color:black;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
 }
 #tech_start{
     margin-top: 40rem;
@@ -116,6 +116,7 @@ nav{
     width: auto;
     height: auto;
     max-height: 100px;
+    max-width: 200px;
 }
 .box4{
     height: fit-content;
@@ -123,6 +124,7 @@ nav{
     background-image: url('../images/trail.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 .resume {
     margin-top: 5rem;
@@ -135,6 +137,7 @@ nav{
 .innerResume{
     padding-left: 2rem;
     color:white;
+    text-align: left;
 }
 .innerResume span{
     font-size: 20px;
@@ -145,6 +148,7 @@ nav{
     background-image: url('../images/code-black-background-programming.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     color: white;
 }
 .box5 h1{
@@ -165,10 +169,14 @@ nav{
     font-size: 20px;
 }
 .projects img{
-    max-width: 90%;
-    border: 0.2rem solid red;
-    transition: transform 2s;
+    height: 100%;
+    width: 100%;
+    transition: 2s transform;
+}
+#project_img {
+    width: 80%;
     overflow: hidden;
+    border: 2px solid white;
 }
 .projects img:hover{
     transform: scale(1.2);
@@ -179,10 +187,12 @@ nav{
     background-image: url('../images/fcb.jpg');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 .contact{
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-gap: 4rem;
     color: white;
     margin-top: 10rem;
     margin-bottom: 10rem;
@@ -208,12 +218,21 @@ nav{
     }
     [class="technologies"] {
         grid-template-columns: 50% 50%;
+        padding: 5px;
+    }
+    [class="techLogos"] {
+        max-width: 100px;
+        max-height: 150px;
     }
     [class="projects"] {
         grid-template-columns: 100%;
     }
     [class="contact"] {
         grid-template-columns: 100%;
+    }
+    [class*="box"] {
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 .col-1 {width: 8.33%;}
