@@ -63,7 +63,8 @@ nav{
 .container{
     width: 100%;
     height: fit-content;
-    padding: 5rem 2rem 0rem 2rem;
+    padding: 5rem;
+    margin-bottom: 5rem;
     display: grid;
     grid-template-columns: 30% 70%;
     grid-gap: 1rem;
@@ -93,15 +94,16 @@ nav{
     padding: 10px;
 }
 .technologies{
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     background-color: white;
     color:black;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 1rem;
+    margin-bottom: 40rem;
 }
 #tech_start{
-    margin-top: 40rem;
+    padding-top: 5rem;
     text-align: center;
     color: black;
     background-color: white;
