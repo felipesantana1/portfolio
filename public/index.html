@@ -2,203 +2,161 @@
 <html lang="">
     <head>
         <title>Felipe Sanatna</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
         <link rel="stylesheet" href="static/css/index.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
         <script src="./static/js/index.js"></script>
     </head>
-<body>
-    <div class="navigation">
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a href="/"><h3 id="myName" class="navbar-brand">Felipe Santana</h3></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#box2">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#box3">Technologies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#box4">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#box5">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#box6">Contact</a>
-                    </li>
-                </ul>
-                <p class="navbar-text">
-                    Welcome to My Personal Profile
-                </p>
+    <body>
+        <header>   
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-            
-        </nav>
-    </div> 
-    <div class="box1">
-        <div class="box1info">
-            <h1>Felipe Santana <br> Bay Area Based Web Developer</h1>
-            <a href="#box2"><button class="btn btn-dark">Learn More..</button></a>
-        </div>
-    </div>
-    <div class="box2" id="box2"> <br><br><br>
-        <h1 style="text-align: center;">About Me</h1>
-        <div class="container">
-            <div class="image"></div>
-            <div>
-                <h2>Felipe Santana</h2>
-                <h6>Software / Web Developer</h6>
-                <p>
-                        The name's Felipe Santana and I am a Full Stack Web Developer with experience building web applications in 3 separate stacks: Python, Ruby, and (my personal favorite) JavaScript. I am a recent graduate from Silicon Valley based coding boot camp "Coding Dojo" where I recieved my technical training in Software Development. However, I consider myself to be a jack of all trades, as I've worked in several industries, from blue collar work in construction and land surveying, to customer service in the fast food industry, and now finally the exciting world of web development. I am currently employed as a Web Developer & Sales Associate at a Bay Area based startup called GardKnight Surveillance Systems. I am however, always interested in hearing about new and exciting opportunities, so feel free to leave a message and I will get back to you as soon as possible. Thanks!
-                </p>
-                <div class="personal_links">
+        
+            <nav class="navlist">
+                <div class="name">
+                    <p><a href="/">Felipe Santana</a></p>
+                </div>
+                <ul>
+                    <li><a href="#box2">About</a></li>
+                    <li><a href="#box3">Technologies</a></li>
+                    <li><a href="#box5">Projects</a></li>
+                    <li><a href="#box6">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <div class="box1">
+                <div class="box1info">
+                    <h1>Felipe Santana <br> Bay Area Based Web Developer</h1>
+                    <a href="#box2"><button class="btn btn-secondary">Learn More..</button></a>
+                </div>
+            </div>
+            <div class="box2" id="box2"> <br><br><br>
+                <h1 style="text-align: center;">About Me</h1>
+                <div class="container">
+                    <div class="image"></div>
+                    <div>
+                        <h2>Felipe Santana</h2>
+                        <h6>Software / Web Developer</h6>
+                        <p>
+                                The name's Felipe Santana and I am a Full Stack Web Developer with experience building web applications in 3 separate stacks: Python, Ruby, and JavaScript. I am a recent graduate from Silicon Valley based coding boot camp "Coding Dojo" where I recieved my technical training in Software Development. However, I consider myself to be a jack of all trades, as I've worked in several industries, from blue collar work in construction and land surveying, to customer service in the fast food industry, and now finally the exciting world of web development. I am currently employed as a Web Developer & Sales Associate at a Bay Area based startup called GardKnight. I am however, always interested in hearing about new and exciting opportunities, so feel free to leave a message and I will get back to you as soon as possible. Thanks!
+                        </p>
+                        <div class="personal_links">
+                                <a href="https://www.linkedin.com/in/felipeo-santana/" target="_blank">
+                                    <img src="static/images/linkedin_logo.png" style="height: 60px; width: 150px;" alt="linkedin logo">
+                                </a>
+                                <a href="https://www.github.com/skweepz22" target="_blank">
+                                    <img src="static/images/github_logo.png" style="height: 60px; width: 150px;" alt="github logo">
+                                </a>
+                                <a href="./static/files/Felipes_Resume.pdf" download="FelipesResume" class="card-link">
+                                    <button type="button" class="btn btn-dark" style="height: 60px; width: 150px;">Download Resume</button>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box3" id="box3">
+                <div id="tech_start">
+                    <h1>Technologies</h1>
+                    <ul>
+                        <li>
+                        <b>Programming Languages</b>: JavaScript, Python, Ruby, PHP, HTML, CSS 
+                        </li>
+                        <li>
+                            <b>Frameworks</b>: Express, Angular, Flask, Django, Rails, Drupal
+                        </li>
+                        <li>
+                            <b>Database</b>: MySQL, PostgreSQL, MongoDB
+                        </li>
+                    </ul>
+                </div>
+                <div class="technologies">
+                    <img src="./static/images/HTML5.png" alt="tech logos">
+                    <img src="./static/images/css3.png" alt="tech logos">
+                    <img src="./static/images/JSLogo.png" alt="tech logos">
+                    <img src="./static/images/nodejs.png" alt="tech logos">
+                    <img src="./static/images/mean.jpg" alt="tech logos">
+                    <img src="./static/images/php-elephant.png" alt="tech logos">
+                    <img src="./static/images/drupallogo.png" alt="tech logo">
+                    <img src="./static/images/flask.jpg" alt="tech logos">
+                    <img src="./static/images/python-django.png" alt="tech logos">
+                    <img src="./static/images/MySQL.png" alt="tech logos">
+                    <img src="./static/images/postgresql-logo.png" alt="tech logos">
+                    <img src="./static/images/mongodb-logo.png" alt="tech logos">
+                </div>
+                <br>
+            </div>
+
+            <div class="box5" id="box5">
+                <h1>Web Development Projects</h1>
+                <div class="projects">
+                    <div class="project">
+                        <h2>Game Cellar</h2>
+                        <b>Video Game E-commerce App</b>
+                        <br>
+                        <div id="project_img">
+                            <a href="https://www.github.com/skweepz22/game_cellar" target="_blank">
+                                <img src="./static/images/gamecellar.png" alt="project img">
+                    
+                            </a> 
+                        </div>
+                        <p>Click to see code!</p>
+                        <div class="project_info">
+                            <p>
+                                <span>- MEAN stack application where users can create personal profiles and sell games at a price they find fair</span><br>
+                                <span>- Built entire project from scratch; utilized Angular, JQuery, and Bootstrap for a well designed and responsive application</span><br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h2>Threading Salon</h2>
+                        <b>Sample Website for Threading Salon</b>
+                        <br>
+                        <div id="project_img">
+                            <a href="https://www.github.com/skweepz22/threading" target="_blank">
+                                <img src="./static/images/jjs.jpg" alt="project img">
+                            </a>
+                            
+                        </div>
+                        <p>Click to see code!</p>
+                        <div class="project_info">
+                            <p>
+                                <span>- Freelance web app for Threading Salon built using JavaScript technologies along with Bootstrap and custom CSS </span><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box6" id="box6">
+                <br>
+                <div class="contact">
+                    <div class="personal-info">
+                        <h2>Contact Information</h2>
+                        <p>Email: Felipeo510.fs@gmail.com</p>
+                        <p>Phone: (510) 598-9627</p>
                         <a href="https://www.linkedin.com/in/felipeo-santana/" target="_blank">
                             <img src="static/images/linkedin_logo.png" style="height: 60px; width: 150px;" alt="linkedin logo">
                         </a>
                         <a href="https://www.github.com/skweepz22" target="_blank">
                             <img src="static/images/github_logo.png" style="height: 60px; width: 150px;" alt="github logo">
                         </a>
-                        <a href="static/files/Resume (1).pdf" download="FelipesResume" class="card-link">
-                            <button type="button" class="btn btn-dark" style="height: 60px; width: 150px;">Download Resume</button>
-                        </a>
+                    </div>
+                    <div class="message">
+                        <h2>Please leave me a message :)</h2>
+                        <form action="/email" method="POST">
+                            <input type="text" name="name" placeholder=Name>
+                            <input type="email" name="email" placeholder="Email">
+                            <textarea name="message" placeholder="Leave a comment"></textarea>
+                            <input class="btn btn-primary" type="submit" value="Send Email">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="box3" id="box3">
-        <div id="tech_start">
-            <h1>Technologies</h1>
-            <ul>
-                <li>
-                   <b>Programming Languages</b>: JavaScript, Python, Ruby, PHP, HTML, CSS 
-                </li>
-                <li>
-                    <b>Frameworks</b>: Express, Angular, Flask, Django, Rails, Drupal
-                </li>
-                <li>
-                    <b>Database</b>: MySQL, PostgreSQL, MongoDB
-                </li>
-            </ul>
-        </div>
-        <div class="technologies">
-            <img class="techLogos" src="./static/images/HTML5.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/css3.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/JSLogo.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/nodejs.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/mean.jpg" alt="tech logos">
-            <img class="techLogos" src="./static/images/php-elephant.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/flask.jpg" alt="tech logos">
-            <img class="techLogos" src="./static/images/python-django.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/MySQL.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/postgresql-logo.png" alt="tech logos">
-            <img class="techLogos" src="./static/images/mongodb-logo.png" alt="tech logos">
-        </div>
-        <br>
-    </div>
-    <div class="box4" id="box4">
-        <br>
-        <div class="resume">        
-            <div class="innerResume">
-                <h1>Recent Employment History</h1><br>
-                <h2 class="">GardKnight Surveillance Systems</h2>
-                <b>Software Developer & Sales Representative</b>
-                <br>
-                <p>May, 2018 - Present</p>
-                <p>
-                    <span>- Contributing to the creation of the company website with a focus on UX/UI</span><br>
-                    <span>- Working in client  outreach and business development through networking</span><br>
-                    <span>- Developing new strategies for market diversification and potential advertisement opportunities</span><br>
-                </p>
-                <br>
-                <h2 class="">Panda Express</h2>
-                <b>Kitchen Operations Lead</b>
-                <br>
-                <p>May, 2016 - Present</p>
-                <p>
-                    <span>- Managed inventory and customer relations to ensure timely operations</span><br>
-                    <span>- Assisted in daily functions and administrative tasks to maintain an excellent dining experience </span>
-                </p>
-                <br>
-                <h2 class="">Hallin & Herrera Inc</h2>
-                <b>Laborer Lead</b>
-                <br>
-                <p>July 2015 - March 2016</p>
-                <p>
-                    <span>- Lead small groups of laborers to ensure day to day tasks were completed</span><br>
-                    <span>- Reported daily progress to Foreman and communicated future tasks to team</span><br>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="box5" id="box5">
-        <h1>Web Development Projects</h1>
-        <div class="projects">
-            <div class="project">
-                <h2>Game Cellar</h2>
-                <b>Video Game E-commerce App</b>
-                <br>
-                <div id="project_img">
-                    <a href="https://www.github.com/skweepz22/game_cellar" target="_blank">
-                        <img src="./static/images/gamecellar.png" alt="project img">
-               
-                    </a> 
-                </div>
-                <div class="project_info">
-                    <p>
-                        <span>- MEAN stack application where users can create personal profiles and sell games at a price they find fair</span><br>
-                        <span>- Built entire project from scratch; utilized Angular, JQuery, and Bootstrap for a well designed and responsive application</span><br>
-                    </p>
-                </div>
-            </div>
-            <div class="project">
-                <h2>Threading Salon</h2>
-                <b>Sample Website for Threading Salon</b>
-                <br>
-                <div id="project_img">
-                    <a href="https://www.github.com/skweepz22/threading" target="_blank">
-                        <img src="./static/images/jjs.jpg" alt="project img">
-                    </a>
-                </div>
-                <div class="project_info">
-                    <p>
-                        <span>- Freelance web app for Threading Salon built using JavaScript technologies along with Bootstrap and custom CSS </span><br>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="box6" id="box6">
-        <br>
-        <div class="contact">
-            <div class="personal-info">
-                <h2>Contact Information</h2>
-                <p>Email: Felipeo510.fs@gmail.com</p>
-                <p>Phone: (510) 598-9627</p>
-                <a href="https://www.linkedin.com/in/felipeo-santana/" target="_blank">
-                    <img src="static/images/linkedin_logo.png" style="height: 60px; width: 150px;" alt="linkedin logo">
-                </a>
-                <a href="https://www.github.com/skweepz22" target="_blank">
-                    <img src="static/images/github_logo.png" style="height: 60px; width: 150px;" alt="github logo">
-                </a>
-            </div>
-            <div class="message">
-                <h2>Please leave me a message :)</h2>
-                <form action="/email" method="POST">
-                    <input type="text" name="name" placeholder=Name>
-                    <input type="email" name="email" placeholder="Email">
-                    <textarea name="message" placeholder="Leave a comment"></textarea>
-                    <input class="btn btn-primary" type="submit" value="Send Email">
-                </form>
-            </div>
-        </div>
-    </div>
     </body>
 </html>
