@@ -42,6 +42,6 @@ app.post("/email", (req, res)=>{
     };
 });
 
-app.listen(8888, () => {
-    console.log("Listening on port 8888");
+app.listen(8000, () => {
+    console.log("Listening on port 8000");
 });
