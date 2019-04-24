@@ -3,8 +3,6 @@ const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
 const xoauth2 = require("xoauth2");
 const bodyParser = require("body-parser");
-require("dotenv/config")
-
 require("dotenv").config();
 
 const app = express();
