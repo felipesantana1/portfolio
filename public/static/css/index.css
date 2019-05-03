@@ -311,7 +311,7 @@ header .name p{
 .box6{
     height: 100%;
     width: 100%;
-    background: #333;
+    background-color: #000;
     background-size: 100% 75%;
     background-repeat: no-repeat;
     background-attachment: fixed;
