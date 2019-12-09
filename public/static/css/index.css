@@ -65,7 +65,10 @@ header nav.active li{
     border-right: none;
     transition: 0.5s ease-in-out;
 }
-
+header nav.active li:hover{
+    background-color: #ff3737;
+    cursor: pointer;
+}
 header nav.active li a{
     min-height: 5vh;
     width: 100%;
@@ -75,10 +78,6 @@ header nav.active li a{
     font-weight: bold;
 }
 
-header nav.active li:hover{
-    background-color: #ff3737;
-    cursor: pointer;
-}
 header nav.active li:hover a{
     font-weight: bolder;
     text-decoration: none;
@@ -90,14 +89,16 @@ header nav.active li a{
 }
 header .name{
     text-align: center;
+    margin: 0 10px;
 }
 header .name{
     font-family: sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 2px;
     padding-left: 5px;
     line-height: 7vh;
+    font-size: 18px;
 }
 header .name a{
     text-decoration: none;
@@ -111,12 +112,12 @@ header .name p{
 .box1{
     height: 100vh;
     width: 100%;
-    background-color: red;
+    background-color: gray;
     background-image: url('../images/golden_gate.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    background-blend-mode: darken;
+    background-blend-mode: normal;
     display: flex;
     flex-direction: column;
 }
@@ -130,6 +131,7 @@ header .name p{
     font-family: 'Cinzel', serif;
     font-weight: bolder;
     font-size: 36px;
+    text-shadow: 1px 1px #fff;
     color:#000;
     letter-spacing: 0.2em;
 }
@@ -162,7 +164,7 @@ header .name p{
 .box2{
     height: 100vh;
     width: 100%;
-    padding: 10%;
+    padding: 5em;
     margin: 0;
     background-image: url('../images/2341441.jpg');
     background-size: cover;
@@ -172,21 +174,21 @@ header .name p{
     display: flex;
 }
 .container{
-    width: 80%;
-    height: 90%;
+    width: 100vw;
+    height: 80%;
     padding: 5rem;
-    margin: auto;
+    margin: 0;
     display: grid;
     grid-auto-columns: 100%;
     grid-gap: 0.2em;
     border-radius: 10px;
     box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.4);
-    background-color: rgba(0, 0, 0, 0.33);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 .image{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-image: url('../images/IMG_20141017_095515.jpg');
     background-size: cover;
     border: 0.2rem solid black;
@@ -215,8 +217,8 @@ header .name p{
 }
 
 .container .personal_links a i{
-    height: 52px;
-    width: 52px;
+    height: 40px;
+    width: 40px;
     line-height: 52px;
     border-radius: 10px;
     transition: 0.5s ease-in;
@@ -227,8 +229,9 @@ header .name p{
 }
 
 .box3{
-    height: 100%;
+    height: 100vh;
     width: 100%;
+    padding: 5em 0 10em 0;
     background-image: url('../images/bay-area.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -240,20 +243,26 @@ header .name p{
     padding: 0;
     background-color: white;
 }
+.box3 h1{
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
 .technologies{
     height: 100vh;
     color:black;
     display: grid;
     grid-template-columns: 28% 28% 28%;
     grid-gap: 1rem;
-    margin: 0  0 60vh 0;
+    margin: 0  0 80vh 0;
+    padding: 0;
 }
-.technologies img {
-    margin: auto;
-    padding: 1em;
-    height: 100px;
-    width: 100px;
-    transition: animation 10s ease-out;
+.technologies i {
+    margin: 10px auto;
+    padding: 0;
+    font-size: 48px;
+    color: rgb(0,0,0,0.8);
 }
 .box4{
     height: 100vh;
@@ -303,7 +312,7 @@ header .name p{
     transition: 2s transform;
 }
 #project_img {
-    width: 80%;
+    width: 95%;
     overflow: hidden;
     border: 2px solid white;
 }
@@ -311,7 +320,7 @@ header .name p{
     transform: scale(1.2);
 }
 .box6{
-    height: 100%;
+    height: 80vh;
     width: 100%;
     background-color: #000;
     background-size: 100% 75%;
@@ -388,11 +397,14 @@ header .name p{
         margin: 0;
         box-sizing: border-box;
         border-right: 1px solid whitesmoke;
+        transition: 0.5s ease-in-out;
     }
     header nav ul li a{
         min-height: 8vh;
+        width: 100%;
+        height: 100%;
+        padding: 50px;
         text-decoration: none;
-        padding: 20px;
         color: white;
         text-shadow: 0.5px 0.5px black;
         letter-spacing: 2px;
@@ -401,8 +413,12 @@ header .name p{
     header nav ul li:last-child{
         border-right: none;
     }
-    header nav ul li:hover a{
+    header nav ul li:hover{
         background: #ff3737;
+        cursor: pointer;
+        color: #000;
+    }
+    header nav ul li:hover a{
         text-decoration: none;
         color: #000;
     }
@@ -425,8 +441,8 @@ header .name p{
         background-size: cover;
     }
     .container{
-        height: 100%;
-        width: 90vw;
+        height: fit-content;
+        width: 100vw;
         display: block;
         margin: auto;
         padding: 0;
@@ -460,15 +476,14 @@ header .name p{
         margin: 10px;
     }
     .technologies {
-        height: 75%;
+        height: 60%;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 5px;
     }
-    .technologies img{
+    .technologies i{
         margin: auto;
         padding: 0.5em;
-        width: 150px;
-        height: 150px;
+        font-size: 90px;
     }
     .projects {
         grid-template-columns: 1fr 1fr;

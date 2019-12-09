@@ -1,5 +1,5 @@
 const express = require("express");
-const mongoose = require("mongoose");
+// const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
 const xoauth2 = require("xoauth2");
 const bodyParser = require("body-parser");
